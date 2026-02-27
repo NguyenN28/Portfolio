@@ -13,3 +13,4 @@ UPDATE [Chocolate bar ratings 2022] SET Ingredients='Unknown' WHERE Ingredients 
 
 -- add column 'Number_Ingredients' contain the number of ingredients
 alter table [Chocolate bar ratings 2022] add Number_Ingredients as (left(Ingredients, 1));
+
